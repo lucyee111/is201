@@ -1,0 +1,32 @@
+/* scratch.css  – your own styles (≥4 rules) */
+
+/* 1  background */
+body {
+  background: #faf7f2;
+  font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+/* 2  hero section */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 3  headings */
+h1, h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: #144b7f;            /* custom font color */
+}
+
+/* 4  unordered list bullets */
+ul li::marker {
+  color: #e07a5f;
+}
+
+/* 5  bootstrap override for dark navbar brand */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
